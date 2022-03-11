@@ -11,19 +11,19 @@ experiência deles é apenas essa, ou seja, eles sabem programar muito bem, são
 feras de programação! Será que a sua empresa terá sucesso no desenvolvimento
 dos softwares que seus clientes precisam?
 
-
+# Videoaula 1 - Introdução à Engenharia de Software 
 ## O que é a engenharia de software?
-É uma disciplina de engenharia que tem como objetivo a produção de software, o
-desde sua concepção inicial, até a operação e manutenção do mesmo.
+É uma disciplina de engenharia que tem como objetivo a produção de software,
+da sua concepção inicial, até a operação e manutenção.
 
 
 ## O que é o software?
 São programas e documentação associados entre si, desenvolvidos para um
-determinado cliente ou para uma uma organização.
+determinado cliente ou para uma organização.
 
 ## Quais atributos de um bom software? 
-Funcionalidade e desenpenho aceitáveis, bem como facilitade para a manutenção,
-usuável e confiável por seu desenpemho.
+Funcionalidade e desenpenho aceitáveis, bem como facilidade para a manutenção,
+usável e confiável por seu desenpemho.
 
 ## Quais as atividades fundamentais da Engenharia de Software?
 - Especificação
@@ -43,32 +43,28 @@ inclindo hardware, software e engenharia de processos.
 ## Principais desafios da Engenharia de Software.
 - Diversidade
 - Demanda por menores prazos
-- softwares confiáveis
+- Softwares confiáveis
 
 ## Métodos e técnicas de engenharia de software
-Não há métodos e técnicasque sejam bons o suficientes para todos os casos, como
+Não há métodos e técnicas que sejam bons o suficiente para todos os casos, como
 exemplo, métodos e técnicas para o desenvolvimento de jogos que fazem uso de
 **protótipos** e sistemas de controle críticos que precisa de desenvolvimento de
 especificações completa e analisável.
 
 ## Diferenciais que a internet trouxe para a Engenharia de Software
-A **internet** não somente impulsionou a economia do software no que diz respeito
-ao desenvolvimento de sistemas largamente distribuidos, mas ajudou no desenvolvimento
-da indiustria de aplicativos para dispositivos móveis.
+A **internet** não somente impulsionou a economia do software no que diz 
+respeito ao desenvolvimento de sistemas largamente distribuidos, mas ajudou no desenvolvimento da industria de aplicativos para dispositivos móveis.
 
 
-## um bom software prcisa de?
+## Um bom software precisa de?
 - Aceitabilidade
 	- aceitavél para todo tipo de usuário e compatível com outros sistemas.
-- Dependebilidade e segurança da informação
-	- confiabilidade, segurança da informação (security) e segurança (safety), não
-causando prejuizos físicos e/ou enconõmico quando falhar, seguido de proteção de 
-contra usuário maliciosos.
+- Dependabilidade e segurança da informação
+	- confiabilidade, segurança da informação (security) e segurança (safety), não causando prejuizos físicos e/ou econõmico quando falhar, seguido de proteção contra usuários maliciosos.
 - Eficiência
-	- Eficicência inclui exxelente uso de memória e processamentoe responsividade.
+	- Eficiência inclui excelente uso de memória e processamento e  responsividade.
 - Manutenibilidade
-	- Softwares bem escritos que permite a facíl manutenção e expansão de suas
-funcionalidades para evoluir conforme cresce suas necessidades.
+	- Softwares bem escritos que permite facíl manutenção e expansão de suas funcionalidades para evoluir conforme cresce suas necessidades.
 
 ## Tipos de software
 - Aplicações interativas baseadas em transações
