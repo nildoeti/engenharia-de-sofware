@@ -320,6 +320,7 @@ software. Empresas como IBM tentaram com baixa aceitação deste modelo.
 É conhecido como um processo rígido pois o processo de desenvolvimento de software
 aqui é criado em estágios de cascatas.
 ![Modelo em cascata](./img/modelo-em-cascata.jpg)
+
 Referẽncia da imagem: Engenharia de Software, Página 33, | Ian Sommerville.
 - Análise de definição de requisitos
 	- serviços, restrições e metas sob consulta do usuário para especificação
@@ -335,4 +336,12 @@ Referẽncia da imagem: Engenharia de Software, Página 33, | Ian Sommerville.
 - Operação de manutenção
 	- o sistema é colocado em modo de produção (uso), e conforme novos
 	requisitos aparecem, são adicionados e corrigidos
+
+## Modelo de processo espiral de Boehm
+![Modelo de processo de desenvolvimento em espiral proposto por Boehm ](./img/Modelo-de-processo-de-desenvolvimento-em-espiral-proposto-por-Boehm.png)
+Fonte da imagem [Research Gate](https://www.researchgate.net/figure/Figura-20-Modelo-de-processo-de-desenvolvimento-em-espiral-proposto-por-Boehm_fig15_317087042)
+
+O *modelo de processo espiral de Boehm* é um modelo dirigido por riscos. Aqui
+define uma consequência de riscos a cada volta na espiral do projeto, mas
+inclui atividades para o gerenciamento do projeto.
 
