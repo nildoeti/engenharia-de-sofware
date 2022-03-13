@@ -194,3 +194,9 @@ saber lidar com diferentes clientes e usuários e fazer o gerenciamento destas e
 ## Engenharia de software para a internet
 De um grande depósito de informação, a internet passou a oferecer cada vez mais tecnologias sofisticas que permite o uso de sistemas inovadores acessados pela internet.
 Podendo desenvolver uma aplicação e hospedar em um servidor, barateando o acesso a tecnologias e serviços.
+
+# Videoaula 2 - Modelos de processo de software 
+Engloba as atividades importantes para especificações, desenvolvimento, validação e evolução do software.
+São varios os modelos de processos de softwares a saber.
+-  modelo de cascata
+	- 	
