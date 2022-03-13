@@ -265,5 +265,74 @@ acesso a tecnologias e serviços.
 Engloba as atividades importantes para especificações, desenvolvimento,
 validação e evolução do software.
 São varios os modelos de processos de softwares a saber.
--  modelo de cascata
-	- 	
+-  modelos de processos de softwares
+	- Modelo em cascatas
+	- Modelo de Boehm
+	- Modelo incremental
+
+# Texto-base 2 - Engenharia de Software (Leia o Capítulo 2, páginas 29-46) | Ian Sommerville
+
+Processo de software são atividades relacioandas ao desenvolvido de um sistema de software. São quatro as atividades obrigatórias a seguir no processo da atividade de software.
+- Especificação
+	- definir as funcionalidades e especificações do software
+- Desenvolvimento
+	- softwares que atende as espeficicações 
+- Validação
+	- garantia que o software atenda as expectativas do cliente
+- Evolução
+	- evolução do software para que atenda as necessidades dos clientes
+
+São atividades complexas que incluem gerenciamento de configuração do software e 
+planejamento como apoio a produção do software.
+- O processo do software demanda entender quem esta envolvido, o que esta sendo
+produzido as condições que influência estas atividades.
+- Este envolvimento abrange o gerente do projeto, gerente de configuração e do
+programador.
+- Condições que devem ser atendidas antes e depois de aprovadas como aprovação
+de todos os requisitos pelo cliente e modelos UML revistados e alterados etc.
+
+Como não há um processo **universal**, a maioria das empresas concebeu seus
+próprios modelos de processos com base em experiẽncias de seus desenvolvedores.
+Sempre haverá espaços para melhorias dos processos como as técnicas ultrapassadas
+ou mesmo de práticas consideradas mais adequadas para a engenharia de industrial.
+
+## Modelos de processo de software
+(SDLC) é uma visão genérica do desenvolvimento de um sistema de software. É uma visão abstrata do processo de desenvolvimento de software que pode ser ampliada
+conforme demanda necessidades espeficicas de cada projeto.
+Segue abaixo, uma breve descrição dessa abstração para o modelo de processo de software.
+
+- Modelo em cascatas
+	- atividades de desenvolvimento, validação e evolução no processo de desenvolvimento do software como especificação de requisitos, projeto,
+	implementação e testes.
+- Desenvolvimento incremental
+	- atividades de especificação, desenvolvimento e validação
+- Integração e configuração
+	- disponibilidade de conponentes e reuso de componentes de softwares
+
+Quando falamos em modelo genérico de desenvolvimento de software, estamos
+falando do reuso dos módulos de outros softwares, pois como citado, não existe
+um modelo universão para o desenvolvimento do software. Cada tipo de sistema, 
+tem suas necessidades particulares, e métodos e técnicas serão sempre diferentes.
+RUP é a tentativa de implantar um modelo universão para o desenvolvimento de
+software. Empresas como IBM tentaram com baixa aceitação deste modelo.
+
+## Modelo de cascata
+É conhecido como um processo rígido pois o processo de desenvolvimento de software
+aqui é criado em estágios de cascatas.
+![Modelo em cascata](./img/modelo-em-cascata.jpg)
+Referẽncia da imagem: Engenharia de Software, Página 33, | Ian Sommerville.
+- Análise de definição de requisitos
+	- serviços, restrições e metas sob consulta do usuário para especificação
+	do projeto.
+- Projeto do sistema do software
+	- identificar e descrever as abstrações de software e hardware para as espeficicações do projeto.
+- implementação e teste de unidade
+	- verificação de cada unidade dos módulos do software se satisfazem as
+	especificações do projeto
+- Integração e teste de sistema
+	- as unidades do software são integradas e testadas para garantir que os 
+	requisitos sejam atendidos, e se sim, entregue ao cliente.
+- Operação de manutenção
+	- o sistema é colocado em modo de produção (uso), e conforme novos
+	requisitos aparecem, são adicionados e corrigidos
+
