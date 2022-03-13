@@ -33,12 +33,14 @@ usável e confiável por seu desenpemho.
 
 ## Diferença entre Engenharia de Software e Ciências da Computação
 - **Ciências da Computação** - trata da teoria e fundamentos da computação.
-- **Engenharia de Software** - trata das questões práticas do desenvolvimento do software.
+- **Engenharia de Software** - trata das questões práticas do desenvolvimento 
+do software.
 
 ## Diferença entre Engenharia de Software e Engenharia de Sistemas
 - **Engenharia de Sistemas** - trata do desenvolvimento de sistemas computacionais,
 inclindo hardware, software e engenharia de processos.
-- **Engenharia de Software** - faz parte do processo da engenha de sistemas de modo geral.
+- **Engenharia de Software** - faz parte do processo da engenha de sistemas de 
+modo geral.
 
 ## Principais desafios da Engenharia de Software.
 - Diversidade
@@ -53,18 +55,23 @@ especificações completa e analisável.
 
 ## Diferenciais que a internet trouxe para a Engenharia de Software
 A **internet** não somente impulsionou a economia do software no que diz 
-respeito ao desenvolvimento de sistemas largamente distribuidos, mas ajudou no desenvolvimento da industria de aplicativos para dispositivos móveis.
+respeito ao desenvolvimento de sistemas largamente distribuidos, mas ajudou no 
+desenvolvimento da industria de aplicativos para dispositivos móveis.
 
 
 ## Um bom software precisa de?
 - Aceitabilidade
 	- aceitavél para todo tipo de usuário e compatível com outros sistemas.
 - Dependabilidade e segurança da informação
-	- confiabilidade, segurança da informação (security) e segurança (safety), não causando prejuizos físicos e/ou econõmico quando falhar, seguido de proteção contra usuários maliciosos.
+	- confiabilidade, segurança da informação (security) e segurança (safety), 
+	não causando prejuizos físicos e/ou econõmico quando falhar, seguido de 
+	proteção contra 
+	usuários maliciosos.
 - Eficiência
 	- Eficiência inclui excelente uso de memória e processamento e  responsividade.
 - Manutenibilidade
-	- Softwares bem escritos que permite facíl manutenção e expansão de suas funcionalidades para evoluir conforme cresce suas necessidades.
+	- Softwares bem escritos que permite facíl manutenção e expansão de suas 
+	funcionalidades para evoluir conforme cresce suas necessidades.
 
 ## Tipos de software
 - Aplicações interativas baseadas em transações
@@ -82,34 +89,60 @@ Pearson Education do Brasil, 2018.
 
 # Texto-base 1 - Engenharia de Software (Leia o Capítulo 1, páginas 3-13) | Ian Sommerville
 
-A Engenharia de Software é essencial para o funcionamento da sociedade moderna, pois todas as instituições governamental e privadas estão conectados de alguma forma por meio de um software. 
-Sistemas financeiros, governos, área de entretenimento como a de música, jogos eletrônicos, fazem uso de algum tipo de software.
-Os sistemas de software são difícies de entender e não podem ser tocados pois não seguem padrões da física, ou dos meios de produção tradicionais, tornando-os complexos e caros de modificar. 	
-Não existem técnicas e métodos padrões para o desenvolvimento de um software, mesmo que dos mais simples. Pois cada tipo de sistema apesar de precisar de uma engenharia para o seu desenvolvimento, faz-se uso de tecnica e métodos diferentes.
+A Engenharia de Software é essencial para o funcionamento da sociedade moderna, 
+pois todas as instituições governamental e privadas estão conectados de alguma 
+forma por meio
+ de um software. 
+Sistemas financeiros, governos, área de entretenimento como a de música, jogos 
+eletrônicos, fazem uso de algum tipo de software.
+Os sistemas de software são difícies de entender e não podem ser tocados pois 
+não seguem padrões da física, ou dos meios de produção tradicionais, tornando-os 
+complexos e caros 
+ modificar. 	
+Não existem técnicas e métodos padrões para o desenvolvimento de um software, 
+mesmo que dos mais simples. Pois cada tipo de sistema apesar de precisar de uma 
+engenharia para o 
+seu desenvolvimento, faz-se uso de tecnica e métodos diferentes.
 Falhas no desenvolvimento de software podem estar relacionadas a: 
 - complexidade crescente dos sistemas
-	-	Apesar das técnicas de engenhariaa de software facilitar a construir sistemas melhores, as demanda mudam, e por isso novas técnicas de engenharia precisam ser desenvolvidas para enfrentar nos novos desafios. 
+	-	Apesar das técnicas de engenhariaa de software facilitar a construir 
+	sistemas melhores, as demanda mudam, e por isso novas técnicas de engenharia 
+	precisam ser desenvolvidas para enfrentar nos novos desafios. 
 - ausência de métodos de engenharia de sofware
-	- Métodos de engenharia de software tem sido ignorados na maioria dos projetos, causando encarecimento do produto e tornando-o menos confiável, gerando necessidade de treinamento especializado em engenharia de software para resolver este problema. 
+	- Métodos de engenharia de software tem sido ignorados na maioria dos
+	projetos, causando encarecimento do produto e tornando-o menos confiável, 
+	gerando necessidade 
+	treinamento especializado em engenharia de software para resolver este problema. 
 
-Sem a engenharia de sofware, não teriamos feito grandes avanços como a da exploração espacial, tornando as viagens mais seguras. Porém, atualmente enfrentamos grandes desafios como as mudanças climáticas, excasses de recursos naturais, variacções demográficas e aumento da população mundial como exemplos. 
+Sem a engenharia de sofware, não teriamos feito grandes avanços como a da 
+exploração espacial, tornando as viagens mais seguras. Porém, atualmente 
+enfrentamos grandes desafios 
+ as mudanças climáticas, excasses de recursos naturais, variacções demográficas 
+ e aumento da 
+população mundial como exemplos. 
 
 ## Desenvolvimento profissional de software
-Entendemos que a **engenharia de software** tem como objetivo o desenvolvimento de software profissional, e não a programação individual. 
+Entendemos que a **engenharia de software** tem como objetivo o desenvolvimento 
+de software profissional, e não a programação individual. 
 Para isso, é necessário que algumas questões sejam entendidas a saber:
 
 -	O que é o software?
 	- São programas e documentação de computadores
 - Quais os atributos de um bom software?
-	- Deve ser funcional com desempenho aceitável, manutenível, usável e com dependábilidade.
+	- Deve ser funcional com desempenho aceitável, manutenível, usável e com 
+	dependábilidade.
 - o que é engenharia de software
-	- É uma disciplina de engenharia de software, que abrange do projeto inicial, operação e manutenção.
+	- É uma disciplina de engenharia de software, que abrange do projeto inicial, 
+	operação e manutenção.
 - Atividades fundamentais da engenharia de software?
 	- Especificação, desenvolvimento, validação e evolução do software
 - Qual a diferença entre **engenharia de software** e **ciências da computação**?
-	- Ciências da computação abrange fundamentos e teorias e engenharia de software com questões práticas do desenvolvimento e entrega do software
+	- Ciências da computação abrange fundamentos e teorias e engenharia de 
+	software com questões práticas do desenvolvimento e entrega do software
 - 	Qual a diferença entre **engenharia de software** e **engenharia de sistemas**?
-	- engenharia de sistemas abrange aspectos do desenvolvimento de sistemas computacionais incluindo hardware, software e engenharia de processos, e a engenharia de software esta dentro deste processo.
+	- engenharia de sistemas abrange aspectos do desenvolvimento de sistemas 
+	computacionais incluindo hardware, software e engenharia de processos, e a 
+	engenharia de software esta dentro deste processo.
 - Quais os custos da engenharia de sofware? 
 	- 60% desenvolvimento
 	- 40% testes
@@ -119,34 +152,51 @@ Para isso, é necessário que algumas questões sejam entendidas a saber:
 - Quais diferenciais a engenharia de sofware trouxe para a engenharia de software?
 	- deu base para a criação da industria de aplicativos móveis.
 
-Engenharia de software abrange o desenvolvimento de software, documentação, bibliotecas, websites de apoio	e dados de configuração asociados.
+Engenharia de software abrange o desenvolvimento de software, documentação,
+bibliotecas, websites de apoio	e dados de configuração asociados.
 Na engenharia de software, se destaca dois tipos de produtos
-- **produtos genéricos**(stand-alone) são softwares desenvolvimento por alguma organização, com total controle das especificações do software, e comercializados como exemplo um sistemas financeiros, etc.
-- **software personalizado** são desenvolvidos para um determinado cliente que conntrola as especificações do software, como exemplo  controle para dispositivos eletrônicos, etc.
+- **produtos genéricos**(stand-alone) são softwares desenvolvimento por alguma 
+organização, com total controle das especificações do software, e comercializados 
+como exemplo
+um sistemas financeiros, etc.
+- **software personalizado** são desenvolvidos para um determinado cliente que 
+conntrola as especificações do software, como exemplo  controle para dispositivos 
+eletrônicos, etc.
 
-No entanto, **produtos genéricos** e  **software personalizado** estão cada vez mais difícil de ser distinguidos, como é o caso dos sistemas de **ERP**.
-A qualidade do software envolve o comportamento do software enquanto em execução, a estrutura e organização dos programas, incluindo sua documentação. 
-Estas especificações varim de acordo com o tipo de software como exemplo um softwae de controle de aeronaves, devem ser seguros, e se for um jogo, deve ser responsivos.
+No entanto, **produtos genéricos** e  **software personalizado** estão cada vez 
+mais difícil de ser distinguidos, como é o caso dos sistemas de **ERP**.
+A qualidade do software envolve o comportamento do software enquanto em execução, 
+a estrutura e organização dos programas, incluindo sua documentação. 
+Estas especificações varim de acordo com o tipo de software como exemplo um softwae 
+de controle de aeronaves, devem ser seguros, e se for um jogo, deve ser responsivos.
 
 ## Atributos de um software
 - Aceitabilidade
-	- ser aceitavel para o tipo de usuário, sendo inteligível e compatível com outros sistemas do usuário
+	- ser aceitavel para o tipo de usuário, sendo inteligível e compatível com
+	outros sistemas do usuário
 - Dependabilidade e segurança
 	- confiabilidade e segurança que garante o não prejuizo fisíco e/ou econômico
 - Eficência
 	- não disperdício de recursos de memória, processamento etc.
 - Manutenibilidade
-	- software bem escrito para que evolua conforme a satisfação e necessidades do cliente
+	- software bem escrito para que evolua conforme a satisfação e necessidades
+	do cliente
 
 ## Engenharia de sofware
-Esta relacionado a todo aspecto da disciplina da engenharia de software que se define em;
+Esta relacionado a todo aspecto da disciplina da engenharia de software que se
+define em;
 - Disciplina de engenharia
-	- aplicação de teorias, métodos e ferramentas apropriadas, para descobrir soluções para problemas mesmo quando não havendo teorias e métodos aplicáveis.
+	- aplicação de teorias, métodos e ferramentas apropriadas, para descobrir
+	soluções para problemas mesmo quando não havendo teorias e métodos aplicáveis.
 - Aspectos da produção de software
-	- inclui atividades de gerenciamento de projetos, desenvolvimento de ferramentas, métodos e teorias que apoie o desenvolvimento do software.
+	- inclui atividades de gerenciamento de projetos, desenvolvimento de
+	ferramentas, métodos e teorias que apoie o desenvolvimento do software.
 
-Engenharia de software, é a busca da qualidade do software, que atenda ao cronograma e ao orçamento estipulados.
-Como sociedade, dependemos de sistemas de software avançados e confiáveis. Métodos de engenharia de software torna o produto final mais barato, melhor qualidade e de manutenção a longo prazo.
+Engenharia de software, é a busca da qualidade do software, que atenda ao
+cronograma e ao orçamento estipulados.
+Como sociedade, dependemos de sistemas de software avançados e confiáveis.
+Métodos de engenharia de software torna o produto final mais barato, melhor
+qualidade e de manutenção a longo prazo.
 O processo do software inclui quatro processos a saber:
 - Especificação
 	- etapas em que clientes e engenheiros definem o que deve ser produzido
@@ -155,48 +205,65 @@ O processo do software inclui quatro processos a saber:
 - Evolução
 	- modificações que reflita requisitos tanto do cliente como do mercado
 
-Temos a considerar quatro questões que afetam os variados tipos de sofware, pois modos e técnicas variam conforme seu tipo.
+Temos a considerar quatro questões que afetam os variados tipos de sofware,
+pois modos e técnicas variam conforme seu tipo.
 - Heterogeneidade
 	- sistemas distribuidos em redes que atendam os diferentes tipos de computadores e dispositivos móveis.
 - Mudanças nos negócios e na sociedade
-	- muitas técnicas de desenvolvimento de software são demoraadas, o que não atende a entrega de um sistema com qualidade no curto prazo.
+	- muitas técnicas de desenvolvimento de software são demoraadas, o que não
+	atende a entrega de um sistema com qualidade no curto prazo.
 - Segurança da informação
 	- Software confiavél e seguro, garantindo proteção dos dados.
 - Escala
 	- Sistemas que atenda a demanda mundial, como a computação em nuvem
 
 ## Diversidade da engenharia de software
-[SEMAT](https://www.semat.org/) é a base para a melhoria dos métodos de engenharia de software, pois não ha um método único para ser usado.  O tipo de aplicação, define o tipo de método a ser usado e/ou criado.
+[SEMAT](https://www.semat.org/) é a base para a melhoria dos métodos de
+engenharia de software, pois não ha um método único para ser usado.  O tipo de
+aplicação, define o tipo de método a ser usado e/ou criado.
 - Aplicação standalone
-	- são sistemas executados em um computador pessoal ou mobile como CAD, manipulador de imagem, app de viagem etc.
+	- são sistemas executados em um computador pessoal ou mobile como CAD,
+	manipulador de imagem, app de viagem etc.
 - Aplicações interativas baseadas em transição
-	- aplicações executadas em computadores remotos e acessados por aplicativos de usuários como as de comércio eletrônicos.
+	- aplicações executadas em computadores remotos e acessados por aplicativos
+	de usuários como as de comércio eletrônicos.
 - Sistemas de controle embarcados
-	- são sistema que gerencicam dispositivos de hardware como os sistemas ABS de um carro, forno microondas etc.
+	- são sistema que gerencicam dispositivos de hardware como os sistemas ABS
+	de um carro, forno microondas etc.
 - Sistema de processamento em lote
-	- sistemas que processam grandes quantidad de dados como sistemas de pagamento, contas de telefones etc.
+	- sistemas que processam grandes quantidad de dados como sistemas de
+	pagamento, contas de telefones etc.
 - Sistemas de entretenimentos
 	- sistemas de jogos são exemplos tipicos de sistemas de entretenimentos
 
 - Sistemas de modelagem e simulação
-	- sistemas que modelam processos físicos desenvolvidos por cientistas e engenheros.
+	- sistemas que modelam processos físicos desenvolvidos por cientistas e
+	engenheros.
 - Sistemas de coleta de dados análise
-	- sistemas como as que coletam dados a partir de sensores e enviam para outros sistemas para análise como a de Big Data
+	- sistemas como as que coletam dados a partir de sensores e enviam para
+	outros sistemas para análise como a de Big Data
 - Sitemas de sistemas
 	- Series de sistemas como ERP's .
 
 # Fundamentos da engnharia de software que se aplica a todos os tipos de sofware
-- uso de um processo gerenciado e compreendido para que idéias claras do que será produzido e quanto da conclusão. 
-- dependabilidade e desenpenho que garanta que o software se comporte como o esperado com bom desenpenhos e uso de recursos fisicos.
-saber lidar com diferentes clientes e usuários e fazer o gerenciamento destas expectativas.
+- uso de um processo gerenciado e compreendido para que idéias claras do que
+será produzido e quanto da conclusão. 
+- dependabilidade e desenpenho que garanta que o software se comporte como o
+esperado com bom desenpenhos e uso de recursos fisicos.
+saber lidar com diferentes clientes e usuários e fazer o gerenciamento destas
+expectativas.
 - reusar softwares de mmodo eficaz em vez de escrever outro.
 
 ## Engenharia de software para a internet
-De um grande depósito de informação, a internet passou a oferecer cada vez mais tecnologias sofisticas que permite o uso de sistemas inovadores acessados pela internet.
-Podendo desenvolver uma aplicação e hospedar em um servidor, barateando o acesso a tecnologias e serviços.
+De um grande depósito de informação, a internet passou a oferecer cada vez mais
+tecnologias sofisticas que permite o uso de sistemas inovadores acessados pela
+internet.
+Podendo desenvolver uma aplicação e hospedar em um servidor, barateando o
+acesso a tecnologias e serviços.
 
 # Videoaula 2 - Modelos de processo de software 
-Engloba as atividades importantes para especificações, desenvolvimento, validação e evolução do software.
+Engloba as atividades importantes para especificações, desenvolvimento,
+validação e evolução do software.
 São varios os modelos de processos de softwares a saber.
 -  modelo de cascata
 	- 	
