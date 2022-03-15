@@ -208,7 +208,8 @@ O processo do software inclui quatro processos a saber:
 Temos a considerar quatro questões que afetam os variados tipos de sofware,
 pois modos e técnicas variam conforme seu tipo.
 - Heterogeneidade
-	- sistemas distribuidos em redes que atendam os diferentes tipos de computadores e dispositivos móveis.
+	- sistemas distribuidos em redes que atendam os diferentes tipos de
+	computadores e dispositivos móveis.
 - Mudanças nos negócios e na sociedade
 	- muitas técnicas de desenvolvimento de software são demoraadas, o que não
 	atende a entrega de um sistema com qualidade no curto prazo.
@@ -272,7 +273,9 @@ São varios os modelos de processos de softwares a saber.
 
 # Texto-base 2 - Engenharia de Software (Leia o Capítulo 2, páginas 29-46) | Ian Sommerville
 
-Processo de software são atividades relacioandas ao desenvolvido de um sistema de software. São quatro as atividades obrigatórias a seguir no processo da atividade de software.
+Processo de software são atividades relacioandas ao desenvolvimentdo de um sistema de
+software. São quatro as atividades obrigatórias a seguir no processo da
+atividade de software.
 - Especificação
 	- definir as funcionalidades e especificações do software
 - Desenvolvimento
@@ -297,12 +300,15 @@ Sempre haverá espaços para melhorias dos processos como as técnicas ultrapass
 ou mesmo de práticas consideradas mais adequadas para a engenharia de industrial.
 
 ## Modelos de processo de software
-(SDLC) é uma visão genérica do desenvolvimento de um sistema de software. É uma visão abstrata do processo de desenvolvimento de software que pode ser ampliada
+(SDLC) é uma visão genérica do desenvolvimento de um sistema de software. É uma
+visão abstrata do processo de desenvolvimento de software que pode ser ampliada
 conforme demanda necessidades espeficicas de cada projeto.
-Segue abaixo, uma breve descrição dessa abstração para o modelo de processo de software.
+Segue abaixo, uma breve descrição dessa abstração para o modelo de processo de
+software.
 
 - Modelo em cascatas
-	- atividades de desenvolvimento, validação e evolução no processo de desenvolvimento do software como especificação de requisitos, projeto,
+	- atividades de desenvolvimento, validação e evolução no processo de
+	desenvolvimento do software como especificação de requisitos, projeto,
 	implementação e testes.
 - Desenvolvimento incremental
 	- atividades de especificação, desenvolvimento e validação
@@ -326,7 +332,8 @@ Referẽncia da imagem: Engenharia de Software, Página 33, | Ian Sommerville.
 	- serviços, restrições e metas sob consulta do usuário para especificação
 	do projeto.
 - Projeto do sistema do software
-	- identificar e descrever as abstrações de software e hardware para as espeficicações do projeto.
+	- identificar e descrever as abstrações de software e hardware para as
+	espeficicações do projeto.
 - implementação e teste de unidade
 	- verificação de cada unidade dos módulos do software se satisfazem as
 	especificações do projeto
@@ -336,6 +343,148 @@ Referẽncia da imagem: Engenharia de Software, Página 33, | Ian Sommerville.
 - Operação de manutenção
 	- o sistema é colocado em modo de produção (uso), e conforme novos
 	requisitos aparecem, são adicionados e corrigidos
+
+Nesse modelo de requisitos, os processos se auto alimentam de novas informações
+conforme as fases de requistos são satisfeitas. Estas novas informaçõs são
+depois analisadas e incrementadas como melhorias ao projeto.
+O modelo de cascata é ideial em projetos como;
+- Sistemas enbarcados
+	- software que interagem com sistemas de hardware.
+- sistemas críticos
+	- com ampla necessidade de análise crítica de segurança *(safety)* e 
+	segurança da informação *(security)*.
+- grandes sistemas de softwares
+	- sistemas de engenharia em que várias empresas fazem parte do projeto.
+Se os requisitos do software mudam rapidamente e a comunicação  com a equipe 
+é informal, não se aplica este modelo, pois demanda um alto custo para
+o desenvolvimento..
+
+## Desenvolvimento incremental
+![Desenvolvimenti incremental](./img/desenvolvimento-incremental.jpg)
+Referẽncia da imagem: Engenharia de Software, Página 35, | Ian Sommerville.
+
+É a abordagem mais comum para o desenvolvimento de software, por ser dirigida 
+por plano. Plano aqui se refere as alterações no software com base nas necessidades
+de atualizações e correções ao logo do desenvolvimento.
+É uma abordagem mais barata e fácil para fazer alterações, o que pode ser feito
+durante o processo de desenvolvimento. 
+Veja abaixo as vantagens em relação ao modelo em cascatas.
+- Custos
+	- custos reduzidos para aplicar mudanças de requisitos como quantidade
+	de análise e de documentação.
+- Fácil obter
+	- obter feedback por parte do cliente, por comentar as demostrações de
+	softwares.
+- Entrega e implantação
+	- os clientes podem usar o software mesmo antes de finalizados.
+## Problemas no desenvolvimento incremental
+O principal problema é a burocracia das grandes organizações que é incompativel
+com este procedimento e o processo ágil mais informal.
+Como nem sempre podem ser mudadas devido a lei *Sarbanes-Oxly* nos EUA, os
+conflitos do processo acabam por acontecer.
+- o processo não é visível, sendo assim, difícil medir o progresso dos resultados.
+- degradação da estrutura do sistema pois deixam o código bagunçado, o que
+encarece seu custo.
+
+
+## Integração e configuração
+É normal na engenharia de software, o reuso de códigos de outros softwares. Isso
+já vem acontecendo com frequência desde os anos 2000, e são em trêsos tipos de
+conponentes a saber:
+- Sistemas de aplicações
+	- sistemas de uso geral que apesar de suas caracteristicas, precisam de
+	adaptaçao para uma determinada aplicação
+- Coleções de objetos
+	- são componentes a ser integados a um framework
+- Web Services
+	- são padrões de serviços disponível remotamente na web
+
+1. *Especificações de requisitos* que incluem descrições breves dos requisitos
+essenciais e caractristicas de sistemas desejados.
+2. 	*Descoberta e avaliação do software* em que é feito buscas pelos componentes
+com base nos requisitos de especificações
+3. *Refinamento dos requisitos* que são definidos com base nas nas informações
+dos componentes reusáveis e das aplicações descobertas. 
+4. *Configuração das aplicações* se satisfeitas os requisitos da aplicação, será 
+utilizada para criação da apliacação. 
+5. *Adaptação e integração dos componestes* em que não havendo aplicação disponível,
+uma nova poderá ser usada e/ou mesmo aproveitar-se de alguns componentes.
+![](./img/engenharia-de-software-orientado-para-reuso.jpg)
+
+
+Reuso do software, é muito importante pois reduz a quantidade de software a ser
+a ser desenvolvido, e reduz o custo final do produto com entrega mais ráapida.
+Ressaltamos que está técnica reduz o controle sobre a evolução do sistema, e 
+pode haver necessidades que não venha a atender o usuário.  
+
+## Atividade do processo do software
+O processo do software são atividades técnicas colaborativas e gerenciais com único
+objeto de criar e testar softwares.
+Podendo fazer uso de sistemas de *gerenciamento de requisitos*, *editor de modelo de projeto*
+*editor de programas*, *ferramentas de testes automatizados* e *depuradores*.
+
+## Ferramentas de desenvolvimento de software
+- gerenciadores de requisitos
+- editores de projetos
+- ferramentas de apoio a refatoração
+- copiladores
+- depuradores
+- rastreadores de defeitos (bug tracks)
+- ferramentas de construção de sistema
+
+Todos são programas para apoio da atividade de *engenharia de software*. entre
+uma das melhores caractristicaas das IDE's, é que elas incluem em sua maioria
+quase ou todas as ferramentas necessárias para a prática da engenharia de software.
+
+
+## Especificação do software
+Conhecido como *engenharia de requisitos*, é a atividade de compreender quais os
+serviços são necessários para o sistema. 
+Nesse processo, estudos de viabilidade e marketing para avaliação da demanda
+de mercado. É um documento de requisitos que especifica o modelo com base no stackholders.
+
+![O processo de engenhariade requisitoss](./img/processo-de-engeharia-de-requisitos.jpg)
+*Fonte: Engenharia de Software, Capítulo 2, páginas 40, Ian Sommerville*
+
+São em três as atividades para a engenharia de requisitos a saber:
+- Elicitação e análise de requisitos
+	- criar requisitos a partir de requisitoss existentes a partir de diálogos 
+	com clientes, usuários etc. 
+- Especificação de requisitos
+	- interpretar informações durante a análise em um documento com os conjuntos
+	dos requisitos como requisitos de usuários e de sistemas.
+- Validação de requisitos
+	- é o realismo consistente e a integridade do processo aonde erros de requisitos
+	são descobertos.
+
+## Projeto e implementação do software
+É a criação de um sistema para ser entregue ao cliente, com atividades de
+projeto (design) e programação de software. É um projeto inacabado que é
+desenvolvido em estágios sugeito a revisões constantes que modifica o 
+projeto inicial.
+Modelo abstrato do processo do projeto exibindo suas entradas, saidas e
+atividades, sendo exibido abaxo.  
+![Um modelo geral de um processo de projeto](./img/modelo-geral-do-processo-do-projeto.jpg)
+*Fonte: Engenharia de Software, Capítulo 2, páginas 41, Ian Sommerville*
+A entrada para o projeto resume na interação do software com outros sistemas de
+softwares, sistemas operacionais, banco de dados entre outras aplicações.
+Abaixo exibimos quatro descrições de processos de projeto para sistema de informação
+1. *Projeto de arquitetura* - identificação da estrutura global do sistema, modulos
+e suas distribuições.
+2. *Projeto de banco de dados* - em que são projetados a estrutura do banco de dados.
+3. Projeto de interface - é a definição das interfaces do sistema e seus componentes.
+4. Seleção e projeto de componentes - para uma busca por componestees usados,
+na ausencia novos são criados.
+
+Em sistemas críticos resulta em documentos detalhados da descrição do sistema.
+Se dirigita por modelo, sua saida será um diagrama. Se usados métodos ágeis, 
+séra representados por códigos do programa.
+Essas saidas de projetos geram um sistema com algumas classes de programas, podendo
+usar ferramentas de software para gerar o esqueleto do sistema.
+Nesse processo, a busca por erros (debug) e o processo de encontrar e corrigir os
+erros (debugging), estabelece a existencia melhorias no projeto. 
+
+
 
 ## Modelo de processo espiral de Boehm
 ![Modelo de processo de desenvolvimento em espiral proposto por Boehm ](./img/Modelo-de-processo-de-desenvolvimento-em-espiral-proposto-por-Boehm.png)
