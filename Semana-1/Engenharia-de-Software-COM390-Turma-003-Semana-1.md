@@ -652,6 +652,65 @@ se beneficiam, mesmo que tende a atrasar o programador no desenvolvimento.
 
 
 
+## item vinculado Semana 1 - Aprofundando o tema
+
+**Material de apoio - Processos de desenvolvimento de software: Processo Unificado (Leia as páginas 27 a 32) | L. G. Maschietto et al.***
+Processo Unificado (PU), é um modelo de construção de software orientado a objetos.
+Proposto pela *Rational*, tornou-se *RUP*, um framework que pode ser melhorado, para amplas classes de sistemas.
+O RUP, descreve como o sistema serájá em sua fase inicial e os envolvidos em cada
+tarefa. 
+
+1. Perpesctiva dinâmica - mostra as fases do modelo ao longo do tempo
+2. Perpesctiva estática - mostra as atividades realizadas
+3. Perpesctiva prátiva - mostra as boas fases a ser usadas durante o processo
+
+A PU ajuda grupos e indivíduos a saber quais suas tarefas no projeto de software.
+Comlui-se que a PU é um modelo que pode ser ajustado de acordo com o tipo de projeto.
+
+## Fases da RUP
+1. Fase de concepção/inicialização - tarefas de comunicação com o cliente,
+planejamento do projeto, avaliação de riscos, estimativas de custos e prazos, 
+que são analisadas previamente.
+2. Fase de elaboração - são modelos genéricos do processo de desenvolvimento de,
+análise do projeto e revisão de riscos.
+3. Fase da construção - dos componentes do software que caracteriza o sistema.
+4. Fase de transição - que é a en
+
+software.  
+s da trega do software ao usuário e inicio dos testes.
+
+## Caracteristicas básicas da PU
+1. Direcioanada por caso de uso - defindo uma linguagem entre o usuário e sistema
+facilitando requisições do sistema.
+2. Processo centrado na arquitetura - com modelagem estatico e dinamica do projeto.
+3. PU interativo e incrmental - com projetos divididos em projetos menores que
+são planejados de acordo com casos de uso.
+
+- Vantagens do PU
+	- processo robusto
+	- método revolucionário de desenvolvimento de software por seu modelo incremental
+	- diminui as chances de fracassos do projeto
+	- fácil de achar erros
+- Desvantagens do PU
+	- complexo e trabalhoso para projetos de pequeno porte
+	- aumento de gastos devido as versões de incremento
+	- divergencia entre documentação e software
+	- entrada em loop devido ao modelo incremental e interativo dependendo do cliente.
+	- experiência da equipe
+
+## Desenvolvimento interativo e incremental
+Trouxe flexibilidade e agilidade para as equipes de desenvolvimento, aumentando
+a capacidade de atendimento das demandas de mercado.
+São metodologias ágeis com ciclos curtos com base em feedbacks e revisão de requisitos.
+
+- Vantagen do desenvolvimento interativo  e incremental
+	- fluxo de entrega do software com partes menores
+	- fácil acompanhar evolução do desenvolvimento e identificação de erros.
+	- redução de riscos na etapa do projeto
+	- capacidade de modificar a direção do projeto
+	- desenvolvimento do escopo de sotware mais flexível
+	- maior produtividade da equipe
+
 
 
 ## Modelo de processo espiral de Boehm
