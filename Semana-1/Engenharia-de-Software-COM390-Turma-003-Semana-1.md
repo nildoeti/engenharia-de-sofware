@@ -464,8 +464,10 @@ desenvolvido em estágios sugeito a revisões constantes que modifica o
 projeto inicial.
 Modelo abstrato do processo do projeto exibindo suas entradas, saidas e
 atividades, sendo exibido abaxo.  
+
 ![Um modelo geral de um processo de projeto](./img/modelo-geral-do-processo-do-projeto.jpg)
 *Fonte: Engenharia de Software, Capítulo 2, páginas 41, Ian Sommerville*
+
 A entrada para o projeto resume na interação do software com outros sistemas de
 softwares, sistemas operacionais, banco de dados entre outras aplicações.
 Abaixo exibimos quatro descrições de processos de projeto para sistema de informação
@@ -482,7 +484,173 @@ séra representados por códigos do programa.
 Essas saidas de projetos geram um sistema com algumas classes de programas, podendo
 usar ferramentas de software para gerar o esqueleto do sistema.
 Nesse processo, a busca por erros (debug) e o processo de encontrar e corrigir os
-erros (debugging), estabelece a existencia melhorias no projeto. 
+erros (debugging), estabelece a existencia melhorias no projeto.
+
+
+## Texto-base 3 - Engenharia de Software (Leia o Capítulo 3, páginas 57-68) | Ian Sommerville
+As empresas precisam responder as novas oportunidades de mercado, de forma rápida pois 
+elas operam em um ambientee global. 
+Para isso, softwares eficientes, precisam ser desenvolvidos de forma rápida, para
+poder estar em pé de igualdade com a concorrência.
+Sendo assim, fica dificil identificar softwares adequados devido a dinâmica que
+a globalização nos impõe. 
+Querendo ou não, isso afeta a prática profissional, como exemplo a analisar, é de
+como o novo software irá interagir com outros sistemas, e mesmo com seus usuário.
+Desenvolvimentos rápido de software, sria inadequado para projetos de construção
+de software dirigido por plano.
+Esta abordagem é mais indicada em casos de softwares de missão crítica, em que
+uma análise profunda é obrigátoria. Razão esta do fato de que quando o software 
+estiver não pronto em sua totalidade, mas disponível para produção, suas requisições
+originais podem ter mudado drasticamente.
+
+O desenvolvimento rápido ou ágil  de software e de seus processos, já é bem
+conhecido mas somente decolou a partir dos anos 1990. As idéias de programação
+extrema (BECK, 1999), SCRUM (SCHWABER; BEEDLE, 2001) e DSDM (STAPLETON, 2003).
+Todos estes métodos compartilham caracteristicas comuns os quais:
+1. 	O **processo de especificação**, em que não há especificação detalhada do 
+sistema e a documentação é gerada automaticamente pelo habiente de programação e
+a documentação do usuário é resumida.
+2. **Sistema desenvolvido** é aumentado em caracteristicas com propostas de 
+usuários entre outros *stackholder* envolvidos nas especificações.
+3. Apoio de **ferramentas** para testes de *automação* de apoio de gerenciamneto
+e *integração* de sistemas e automatização da *interface do usuário*. 
+Como os métodos ágeis é baseados em  incremental ao logo do projeto,
+novas versões do sistema surgem com feedback dos clientes a cada duas e/ou três 
+semanas de uso, minizando documentações a partir de uma comunicação formal.
+O *design* e a *atualizações constantes* por feedback dos usuário, é a oarte
+central dos métodos ágeis.
+Portanto, a abordagem dirigida por plano, ajuda a idenfiticar etapas diferentes
+no processo do dedesenvolvimento de software, e esta informação é usada no
+processo seguinte.
+
+![](./img/desenvolvimento-dirigido-por-plano-e-desenvolvimento-agil.jpg)
+*Fonte: Engenharia de Software, Capítulo 2, páginas 59, Ian Sommerville*
+
+Notem que no processo dirigido por plano a interação acontece dentro das
+atividades, e na abordagem ágil a interação ocorre ao longo das atividads.
+
+## Métodos ágeis
+Entre os anos 80 e 90, havia a percepção que de a melhor forma de se desenvolver
+um software é por meio de um planejamento cuidadoso apoiados por ferramentas
+de softwares e de processos.
+Abordagens dirigidas, foi criado para softwares criados por grandes times, como
+quando participam varios desenvolvedores espalhados em vários paises.
+Porém esta abordade aplicada em negócios de pequeno e médio porte, causa
+sobrecarga no processo de desenvolvimento. 
+Demanda mais tempo em como o sistema deve ser desenvolvido, se os requisitos
+mudam, retrabalho é necessaŕio poisn suas especificações podem mudar.
+Esta insatisfação que gerou o surgimento dos métodos ágeis nos anos 90, pois 
+permitia que o time se dedicasse ao software ao projeto.
+Entendemos que o método ágil é mais adequado quando os requisitos de um determnado
+sistema mudam muito.
+É a criação de um software funcional, propondo mudanças de novos requisitos,
+reduzindo a burocracia do processo.
+para maiores informações: [Manifesto Agil](https://agilemanifesto.org/).
+- **Indivíduos e interações** mais que processos e ferramentas.
+- **Softwares em funcionamento** mais que uma documentação abrangente.
+- **Colaboração com o cliente** mais que negociação de contratos
+- **Responder as mudanças** mais que seguir um plano.
+
+Todos os métodos métodos ágeis compartilham os mesmos principios como descrito 
+acima.
+
+Principio | Descrição
+----------|----------
+Envolvimento do cliente | Priorizar novos requisitos por envolvimento do cliente em todo o o processo
+Acolher mudanças | Sistemas mudam, projete sistemas para acomodar estas mudanças
+Entrega Incremental | Cliente especifica novos requisitos e estes são inclusos
+Manter simplicidade | Software e processos de desenvolvimento sempre simples
+Pessoas, não processo | O time deve ter a liberdade para desenvolver seus próprios métodos de trabalho.
+
+Os métodos ágeis são uteis no desenvolvimento de software de pequeno e médio porte,
+e compromisso do cliente no processo de desenvolvimento do software.
+
+## Técnicas de desenvolvimento ágil
+Kent Benk definou a Extreme Programmming (XP), para o desenvolvimento de software
+em nível extremo, o que acelera a criação e entrega de softwares no mesmo dia.
+
+Requisitos expressos na figura abaixo ma o método ágil
+
+![](./img/ciclo-lancamento-metodo-agil.jpg)
+
+Ma programação extrema (XP), os sprogramadores trabalham em pares para testes
+das tarefas antes do desenvolvimento do software que se resume em:
+1. **Desenvolvimento incremental** é baseado em lançamentos menores e frequentes,
+baseado no histórico dos clientes.
+2. **Envolvimento do cliente** é continuo junto ao time para definir a aceitação 
+do sistema.
+3. **Pessoas e não processos** apoiado por um processo de desenvolvimento
+sustentável e curto.
+4. **Mudanças** apoiadas por lançamentos regulares do sistema e testes (test-first).
+5. **Manutenção da simplicidade** apoiado por refatoração constante para a 
+melhoria do código.
+
+Dificil de se aplicado na, as empresas acabam por escolher um método ágil mais
+adequado a sua realidade, e com uso de gerenciamento de **Scrum**.
+
+**Principio ou prática** | **Descrição**
+-------------------------|---------------
+Propriedade coletiva |  Pares de desenvolvedores trabalhando em todas as áreas do sistema e podem muar qualquer coisa
+Integração continua | Tarefas concluidas, são integrados ao sistema e todos os testes de unidades devem passar
+Planejamento incremental | Requisitos registrados em cartões de histórias são definidos com suas prioridades e tempos disponiveis, decompondo em tarefas.
+Representante do cliente | como membro do time, o cliente e/ou representante deve estar disponível.
+Programação em pares | Desenvolvedores em pares e conferindo o trabalho um do outro.
+Refatoração | Refatoração do código ao longo do desenvolvimento para melhorias.
+Projeto (design) simples | Design suficiente que satisfaça o projeto atual
+Lançamentos pequenos | Conjunto mínimo de funcionalidades que agregue valor ao negócio em primeiro lugar.
+Ritmo sustentável | 0 horas extras, mais que isso, é código sem qualidade.
+Desenvolvimento com testes a priori (teste-first) | uso de framework de teste automatizado para escrever os testes de uma nova funcionalidade antes de incluir no sistema.
+
+## Histórias do usuários
+Requisitos de software sempre mudam com base na experiência do usuário. Para cada
+experiência do usuário, um novo cenário e adicioando na futura versão do sistema.
+No exemplo da página 64, temos a história da **prescrição médica**, com detalhes
+para um médico(a) poder prescrever um medicamento e/ou substância para seus pacientes.
+Em sua descrição temos a opção autocompletar associado em um banco de dados, para
+facilitar a busca e uma caixa de confirmação.
+Tais historias são escritas em cartões chamados de tarefas, o que ajuda um maior
+envolvimento do cliente com o time, e a cada alteração um prazo de duas semanas
+para implementar as mudanças.
+
+## Refatoração
+As mudanas no softwares devem ser adicioandos com facilidades. O time deve buscar
+possiveis melhooras e adicioanar ao software. 
+A refatoração melhora a estrutura do código e sua clareza evitando deteorização
+devido as constantes atualizações.
+O hanbinte de desenvolvimento deve incluir ferramentas de refatoração do código.
+
+## Desenvolvimento com teste de priori(teste-first)
+No processo de desenvolvimento de software incremental, não há um plano definido
+para testes de software, difirente do desenvolvimento por plano.
+A programação extrema (XP), possui abordagens para testar softwares que não 
+possuiem expecificações.
+1. desenvolvimento com teste a priori(test-first)
+2. desenvolvimento de teste incremental a partir de cenários
+3. envolvimento do usuário no desenvolvimento e validação de teste
+4. uso de framework de testes automatizados
+
+Nessa abordagem da programação extrema, primeiro se escreve os testes e depois
+que é desenvolvido os códigos.
+Na programação extrema (XP), os testes se tornam mais simples, pois são implementados
+de acordo com a historio descritas nos cartões.
+Portanto, o papel do cliente e ajudar o time a testar as histórias antes de implementar as mudanças na nova versão do software. 
+Frameworks de testes ajuda a conferir se os resultados são satisfatorios. Como
+exemplo temos o framework JUnit em JAVA. 
+Todo teste de software, pede uma revisão completa e entre outros testes para 
+averiguar que erros não passem para a próxima atualização junto ao lançamento
+do sistema.
+
+## Programação em pares
+Outra novidade na programação extrema (XP), é a de uma par de programadores
+sentarem diante do mesmo computador para desenvolver o software.
+Entre suas vantagens temos:
+1. O software é responsabilidade de todo o time, portanto erros não é individualizados.
+2. A programação em pares por ser um processo menos forma, não encontra tantos 
+erros, em comparação com a inspeção de código.
+3. Os benefícius da refatoração do código, é a longo prazo, mas todos no time 
+se beneficiam, mesmo que tende a atrasar o programador no desenvolvimento.
+
+
 
 
 
